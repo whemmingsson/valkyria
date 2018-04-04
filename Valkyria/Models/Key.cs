@@ -3,7 +3,7 @@ using Valkyria.Engine.Interfaces;
 
 namespace Valkyria.Engine.Models
 {
-    public class Key : VEntity, IKey
+    public class Key : VEntity, IKey, ILootable
     {
         public Guid GetId()
         {
