@@ -1,0 +1,32 @@
+{
+  "inputs": [
+    {
+      "id": 0,
+      "tag" : "SEARCH"
+      "input_values": [
+        "search",
+        "look around",
+        "go through",
+        "find"
+      ],
+      "action": {
+        "type": "DISPLAY_TEXT",
+        "reference": "STANDARD"
+      }
+    },
+    {
+      "id": 1,
+      "tag" : "OPEN"
+      "input_values": [
+        "open",
+        "look around",
+        "go through",
+        "find"
+      ],
+      "action": {
+        "type": "DISPLAY_TEXT",
+        "reference": "STANDARD"
+      }
+    }
+  ]
+}
